@@ -1,0 +1,70 @@
+
+.div{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    justify-content: space-between;
+    
+}
+
+
+.div1{
+    background-color: aquamarine;
+    width: 150px;
+    display: flex;
+    align-items: center;   /*  აქ არ იმუშავებს თუ ზემოთ არ დავიწერთ */
+    
+}
+.img{
+
+    height: 50px;
+    margin-right: 3px;
+    
+}
+
+.img2{
+    height: 50px;
+}
+
+
+
+.div2{
+    background-color: red;
+    width: 600px;
+    flex:1;
+    margin-left:15px;
+    margin-right:24px;
+    display:flex;
+    align-items: center;
+}
+
+.box{
+    
+    flex: 1;
+    height: 50px;
+
+}
+box::placeholder{
+    
+    font-size: 200px;
+}
+
+
+
+.img3{
+    height: 50px;
+
+}
+
+.img4{
+    height:50px;
+}
+
+
+
+
+
+.div3{
+    background-color: yellow;
+    width: 200px;
+}
